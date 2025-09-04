@@ -1,0 +1,71 @@
+# Customer Retention ML Pipeline - Python Dependencies
+
+# Core ML libraries
+scikit-learn==1.3.0
+xgboost==1.7.6
+pandas==2.0.3
+numpy==1.24.3
+
+# Feature engineering and preprocessing
+pyspark==3.4.1
+category_encoders==2.6.1
+imbalanced-learn==0.11.0
+
+# Model tracking and deployment  
+mlflow==2.5.0
+joblib==1.3.1
+
+# API serving
+fastapi==0.101.0
+uvicorn==0.23.0
+pydantic==2.1.1
+redis==4.6.0
+
+# Data validation and monitoring
+great-expectations==0.17.12
+evidently==0.4.2
+alibi-detect==0.11.4
+
+# Database connections
+psycopg2-binary==2.9.7
+sqlalchemy==2.0.19
+
+# Apache Airflow
+apache-airflow==2.7.0
+apache-airflow-providers-postgres==5.6.0
+apache-airflow-providers-slack==7.3.0
+
+# Utilities and configuration
+python-dotenv==1.0.0
+PyYAML==6.0.1
+click==8.1.6
+requests==2.31.0
+
+# Development and testing
+pytest==7.4.0
+pytest-mock==3.11.1
+pytest-cov==4.1.0
+
+# Code quality
+black==23.7.0
+flake8==6.0.0
+mypy==1.5.1
+isort==5.12.0
+
+# Documentation
+sphinx==7.1.2
+sphinx-rtd-theme==1.3.0
+
+# Performance monitoring
+memory-profiler==0.60.0
+py-spy==0.3.14
+
+# Visualization (for analysis)
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Security
+cryptography==41.0.3
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
